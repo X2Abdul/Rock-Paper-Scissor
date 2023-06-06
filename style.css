@@ -1,0 +1,45 @@
+header, main .score,main .playerName, main .icons, main .directions, footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .icons{
+    gap: 20mm;
+    padding: 20mm;
+}
+
+.icon{
+    transition-duration: 0.7s;;
+    border-radius: 5mm;
+}
+.icon:hover{
+    cursor: pointer;
+}
+#direction{
+    font-family: consolas;
+    font-size: 20mm;
+}
+
+.hover-icon{
+    scale: 1.1;
+    border: 5px solid red;
+}
+
+header{
+    background-color: yellow;
+    font-size: larger;
+    font-family: consolas;
+    font-weight: 5mm;
+    gap: 10mm;
+}
+.playerName, .score{
+    font-family: consolas;
+    font-size: large;
+}
+.playerName{
+    gap: 40mm;
+}
+
+.score{
+    gap: 60mm;
+}
